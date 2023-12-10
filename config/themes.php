@@ -24,14 +24,21 @@ return [
                 'package_assets_directory' => 'src/Resources/assets',
             ],
         ],
+
+        'CustomTheme' => [
+            'name' => 'EnesT_Shop',
+            'views_path' => 'resources/themes/Custom_theme/views',
+            'assets_path' => 'public/themes/Custom_theme/assets',
+
+            'vite'        => [
+                'hot_file'                 => 'shop-Custom_theme-vite.hot',
+                'build_directory'          => 'themes/shop/Custom_theme/build',
+                'package_assets_directory' => 'src/Resources/assets',
+            ],
+        ],
     ],
 
-    'custom-theme' => [
-        'views_path' => 'resources/themes/Custom_theme/views',
-            'assets_path' => 'public/themes/Custom_theme/assets',
-            'name' => 'EnesT_Shop',
-            'parent' => 'default'
-    ],
+    
 
     /*
     |--------------------------------------------------------------------------
