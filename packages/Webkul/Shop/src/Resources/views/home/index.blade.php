@@ -67,4 +67,6 @@
                 @break
         @endswitch
     @endforeach
+
+    
 </x-shop::layouts>

@@ -28,7 +28,7 @@ return [
         'CustomTheme' => [
             'name' => 'EnesT_Shop',
             'views_path' => 'resources/themes/Custom_theme/views',
-            'assets_path' => 'public/themes/Custom_theme/assets',
+            'assets_path' => 'public/themes/Custom_theme',
             'parent' => 'default',
 
 
