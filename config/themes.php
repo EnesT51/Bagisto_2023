@@ -29,10 +29,12 @@ return [
             'name' => 'EnesT_Shop',
             'views_path' => 'resources/themes/Custom_theme/views',
             'assets_path' => 'public/themes/Custom_theme/assets',
+            'parent' => 'default',
+
 
             'vite'        => [
                 'hot_file'                 => 'shop-Custom_theme-vite.hot',
-                'build_directory'          => 'themes/shop/Custom_theme/build',
+                'build_directory'          => 'themes/Custom_theme/build',
                 'package_assets_directory' => 'src/Resources/assets',
             ],
         ],
